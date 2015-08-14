@@ -195,21 +195,27 @@ p {
   font-size: 48px;
   font-weight: normal;
 }
+.video p {
+  padding-bottom: 50px;
+}
 .video img {
   vertical-align: middle;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 0px;
 }
 
 /* TESTIMONIALS */
  .testimonials {
    padding:4em 0;
    text-align: center;
+   padding-top: 50px;
  }
  .testimonials h2 {
    color:#0b648f;
    font-size: 48px;
    font-weight: normal;
+ }
+ .testimonials p {
+  padding-bottom: 50px;
  }
  .testimonials ul li {
    list-style-type: none;
