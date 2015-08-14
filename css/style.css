@@ -53,8 +53,12 @@ p {
    float:left;
    position:relative;
    min-height: 1px;
-   margin:0 2% 20px;
+   margin:0 2% 10px;
  }
+
+img {
+  max-width: 100%;
+}
 
  @media (min-width: 768px){
    .container {
@@ -74,10 +78,16 @@ p {
    .one-fourth {
      width:21%;
    }
+   section.benefits {
+    padding-bottom: 200px;
+   }
  }
- @media (min-width: 1200px) and (max-width: 1350px){
+ @media (min-width: 1200px) {
    .container {
      width: 1170px;
+   }
+   section.benefits {
+    padding-bottom: 180px;
    }
  }
  /* Extra large screen */
@@ -86,16 +96,29 @@ p {
     font-size: 65px;
     font-weight: normal;
   }
+   section.benefits {
+    padding-bottom: 200px;
+   }
 }
   /* HEADER */
  header {
    color:#FFFFFF;
-   background-image: url(../images/hero.png) ;
-   background-repeat: no-repeat;
-   background-position: top center;
+   background: url(../images/hero.png) no-repeat center center fixed;
+   background-size: cover;
+   background-attachment: fixed;
  }
  header nav {
    padding:1em 0;
+ }
+ nav.container {
+    background-color: #0b648f;
+    overflow: hidden;
+    margin: 0 -9999rem;
+    padding: 0.25rem 9999rem;
+    text-align: center;
+ }
+ div.one-half {
+  margin-top: 10px;
  }
  header nav ul {
    display:inline;
@@ -127,6 +150,7 @@ p {
    text-align: center;
    display:block;
    position: relative;
+   padding-bottom: 180px;
  }
    header h1 {
    font-size:48px;
@@ -156,6 +180,13 @@ p {
    background: #e21737;
    border: 2px solid #e21737;
  }
+/* MACBOOK */
+ .macbook img {
+  display: block;
+  margin-top: -120px;
+  margin-left: auto;
+  margin-right: auto;
+ }
 
  /* BENEFITS */
  .benefits {
@@ -163,9 +194,9 @@ p {
   text-align: center;
   display: block;
   position: relative;
-  padding-bottom: 200px;
-  margin:-5px auto;
+  padding-bottom: 550px;
  }
+
 .benefits ul {
   margin: 0 auto;
   padding: 4em 0;
@@ -338,3 +369,47 @@ p {
    line-height: 15px;
    font-style:italic;
  }
+
+  /* FOOTER */
+ footer img {
+  margin: 50px auto;
+  max-width: 100%;
+  display: block;
+  position: relative;
+ }
+ footer {
+   background-color: #0b648f;
+   color: #FFFFFF;
+   position: relative;
+   overflow: hidden;
+   vertical-align: middle;
+ }
+footer ul.one-third {
+  list-style-type: none;
+  text-transform: uppercase;
+  display: inline-block;
+  text-align: center;
+  margin: 0px auto;
+}
+footer li a {
+  text-decoration: none;
+  text-transform: none;
+  font-weight: 100;
+  color: #FFFFFF;
+}
+footer .nav-links {
+  position: relative;
+}
+/* COPYRIGHT */
+.copyright p {
+  color: #FFFFFF;
+  font-size: 12px;
+  font-weight: normal;
+  background-color: #0b648f;
+  display: block;
+  text-align: center;
+  margin: 0px auto;
+  padding: 25px;
+  position: relative;
+ }
+ 
