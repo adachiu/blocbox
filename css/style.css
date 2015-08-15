@@ -59,10 +59,17 @@ p {
 img {
   max-width: 100%;
 }
-
+@media (min-device-width: 375px) {
+  section.pricing {
+  margin-top: 1300px;
+  }
+}
  @media (min-width: 768px){
    .container {
      width: 750px;
+   }
+   section.pricing {
+    margin-top: 1050px;
    }
  }
  @media (min-width: 992px) {
@@ -88,6 +95,9 @@ img {
    }
    section.benefits {
     padding-bottom: 180px;
+   }
+   section.pricing {
+    margin-top: 550px;
    }
  }
  /* Extra large screen */
@@ -296,7 +306,7 @@ img {
    position: relative;
    padding-top: 50px;
    padding-bottom: 50px;
-   margin-top: 800px;
+   margin-top: 550px;
  }
  .pricing h2 {
    color: 0b648f;
