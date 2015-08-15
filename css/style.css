@@ -363,11 +363,12 @@ img {
    left:20px;
    right:20px;
  }
- .small {
+.small {
    font-size: 12px;
    color: #808080;
    line-height: 15px;
    font-style:italic;
+   display: inline-block;
  }
 
   /* FOOTER */
@@ -412,4 +413,3 @@ footer .nav-links {
   padding: 25px;
   position: relative;
  }
- 
