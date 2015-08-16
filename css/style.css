@@ -461,6 +461,10 @@ footer .nav-links {
    list-style-type: none;
    margin-bottom: 15px;
  }
+ li.active {
+  background: #0b648f;
+  padding: 5px;
+ }
   .left-nav .items ul li a {
    color:#808080;
    text-decoration: none;
@@ -525,6 +529,14 @@ footer .nav-links {
  }
  .content .header > a {
    float:right;
+ }
+ .content .search p {
+  font-size: 25px;
+  font-family: 'Droid Serif';
+  color: #efecea;
+  margin: 30px;
+  border: 3px solid #efecea;
+  padding: 23px;
  }
  .content-item {
    width:96%;
@@ -618,6 +630,6 @@ footer .nav-links {
  .item-box p {
    font-size: 14px;
    color: #808080;
-   line-height: 18px;
+   line-height: 20px;
    margin:5px 0 0;
  }
