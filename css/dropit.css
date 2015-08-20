@@ -63,3 +63,60 @@
   font-weight:100;
   z-index: 1;
  }
+
+ /* Account Settings reversed dropdown menu */
+ .settings .gear i {
+    position: relative;
+    bottom: 15px;
+    right: 20px;
+ }
+
+ .settings .gear .dropit-trigger { position: relative; }
+.settings .gear .dropit-submenu {
+    position: absolute;
+    top: 100%;
+    right: 0; /* dropdown left or right */
+    z-index: 1000;
+    display: none;
+    min-width: 130px;
+    list-style: none;
+    margin: -140px 0 0;
+}
+.settings .gear .dropit-open .dropit-submenu { 
+    display: block;
+    background: #0b648f;
+    box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.30);
+    border-radius: 4px;
+    z-index: 1000;
+}
+.settings .gear .dropit-open .dropit-submenu:after {
+  content: " ";
+  position: absolute;
+  border-style: solid;
+  border-bottom-width: 0;
+  border-top-width: 8px;
+  border-color: #0b648f transparent;
+  display: block;
+  width: 0;
+  z-index: 1000;
+  top: 130px;
+  right: 35px;
+ }
+ .settings .gear .dropit-open .dropit-submenu li {
+  display: block;
+  margin-bottom: 20px;
+  z-index: 1;
+ }
+ .settings .gear .dropit-open .dropit-submenu li:last-child {
+  margin-bottom: 0px;
+  z-index: 1;
+ }
+ .settings .gear .dropit-open .dropit-submenu li a {
+  color:#ffffff;
+  text-decoration: none;
+  font-family: "Noto Sans", Helvetica, Arial, sans-serif;
+  font-weight:100;
+  z-index: 1;
+  font-size: 15px;
+  margin: 5px;
+ }
