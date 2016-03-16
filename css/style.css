@@ -29,6 +29,7 @@ p {
   font-weight: 100;
 }
 
+
 /* GRID */
 .container {
   margin-right: auto;
@@ -88,7 +89,7 @@ img {
    section.benefits {
     padding-bottom: 200px;
    }
- }
+}
  @media (min-width: 1200px) {
    .container {
      width: 1170px;
